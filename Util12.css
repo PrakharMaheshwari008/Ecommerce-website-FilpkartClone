@@ -1,0 +1,8 @@
+.flex-Grid-center{
+    text-align: center;
+    /* background-color: black; */
+    display: flex;
+    color: white;
+    justify-content: space-around;
+   
+}

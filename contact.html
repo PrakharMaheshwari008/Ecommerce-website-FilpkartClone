@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="contact.css" rel="stylesheet" type="text/css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <div class="intro">
+            <div class="hero">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"> </div>
+
+                        <button type="button" class="btn1" onclick="login()">Log
+                            In</button>
+                        <button type="button" class="btn1" onclick="Register()">Sign
+                            In</button>
+                    </div>
+                    <div class="icons">
+                        <img src="fb.png">
+                        <img src="ln.png">
+                        <img src="tw.png">
+                    </div>
+                    <form id="login" class="input">
+                        <input type="text" class="input-field" placeholder="User
+                            Id" required="">
+                        <input type="password" class="input-field"
+                            placeholder="Enter Password" required="">
+                        <input type="checkbox" class="check-box"><span>remember
+                            password</span>
+                        <button type="Submit" class="submit-btn"> Log In</button>
+                    </form>
+                    <form id="Register" class="input">
+                        <input type="text" class="input-field" placeholder="User
+                            Id" required="">
+                        <input type="text" class="input-field"
+                            placeholder="Email Id"required="">
+                        <input type="password" class="input-field"
+                            placeholder="Enter Password" required="">
+                        <input type="checkbox" class="check-box"><span>i Agreed
+                            to the Term & apld Condition</span>
+                        <button type="Submit" class="submit-btn"> Register</button>
+                    </form>
+                </div>
+            </div>
+
+            </div>
+            <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("Register");
+            var z = document.getElementById("btn");
+            
+            function Register(){
+                x.style.left = "-400px";
+                  y.style.left = "50px";
+                    z.style.left = "110px";
+            }
+            function login(){
+                x.style.left = "50px";
+                  y.style.left = "450px";
+                    z.style.left = "0";
+            }
+           </script>
+        </header>
+    </body>
+</html>
